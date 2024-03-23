@@ -11,6 +11,7 @@ public class CreateCommunityService {
                 .description(createCommunityCommand.getDescription())
                 .visibility(createCommunityCommand.getVisibility())
                 .status(CommunityStatus.ACTIVE)
+                .id("SomeId")
                 .build();
     }
 }

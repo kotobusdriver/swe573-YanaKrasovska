@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class Community {
+    String id;
     String name;
     String description;
     CommunityVisibility visibility;
